@@ -1,0 +1,17 @@
+public class Main {
+  public static void main(String[] args) {
+    int sum = 0;
+     for (int i = 0; i <= 1000; i+=2) {
+     sum = sum + i;
+     }
+      System.out.println("Sum is " + sum);
+       int sum2 = 0;
+     for (int l = 1; l <= 999; l+=2) {
+     sum2 = sum2 + l;
+     }
+      System.out.println("Sum2 is " + sum2);   
+      
+      
+    }  
+  }
+
